@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title Here</title>
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- Remember to include your fonts here! Noto Sans from Google Fonts included as an example. Replace this entire snippet with your own from Google Fonts. -->
+  <!-- Alternatively, remove this snippet and include your fonts as font-faces in CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face 
+     Make sure you include the font files and reference them properly. -->
+  <!-- START Google Fonts snippet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;600&display=swap" rel="stylesheet" />
+  <!-- END Google Fonts snippet -->
+</head>
+
+<body>
+  <a href="#curatorial-statement" class="skip-to-main-content-link">Skip to main content
+  </a>
+  <!-- Top Navigation Menu -->
+  <nav class="topnav" id="top">
+    <a href="#home" class="exhibition-logo active">
+      <h1>Exhibition Title</h1>
+    </a>
+    <!-- "Hamburger menu" to toggle the navigation links -->
+    <button class="menu-toggle" id="hamburger" aria-expanded="false" aria-controls="nav-menu"><span
+        class="visually-hidden">Menu</span>
+      <svg class="icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="https://www.w3.org/2000/svg"
+        xmlns:xlink="https://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+        <path class="line line-1" d="M 20,30 H 80" />
+        <path class="line line-2" d="M 20,50 H 80" />
+        <path class="line line-3" d="M 20,70 H 80" />
+      </svg>
+    </button>
+    <!-- Navigation links (hidden by default) -->
+    <div id="navLinks">
+      <div class="nav-links">
+        <!-- Add links to all sections on homepage by copying the span below and editing the text to the name of the section and href to the id of the section -->
+        <span><a href="#section">Section Link</a></span>
+        <span><a href="https://newmediartspace.info" target="_blank">New Media Artspace</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <main class="main-container">
+    <!-- You can either put your exhibition key image in the background of .curatorial-left in main.css and delete the .key-image-hero div,
+        or remove the background-image on .curatorial-left and place the key image in the hero. -->
+    <div class="key-image-hero">
+      <a href="#curatorial-statement">View exhibition<br />&darr;</a>
+    </div>
+    <div class="column-text" id="curatorial-statement">
+      <div class="column-left curatorial-left">
+        <h2>About the Exhibition</h2>
+      </div>
+      <div class="column-right">
+        <div class="curatorial-text-body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit
+            amet venenatis urna cursus eget nunc scelerisque viverra mauris.
+            Molestie a iaculis at erat pellentesque adipiscing. Laoreet
+            suspendisse interdum consectetur libero. Tellus id interdum velit
+            laoreet id donec. Massa tincidunt nunc pulvinar sapien. In aliquam
+            sem fringilla ut. Iaculis urna id volutpat lacus laoreet. Quam id
+            leo in vitae turpis. Tellus molestie nunc non blandit massa enim
+            nec.
+          </p>
+          <p>
+            Scelerisque viverra mauris in aliquam sem fringilla. Ipsum dolor
+            sit amet consectetur. Ullamcorper malesuada proin libero nunc
+            consequat interdum varius sit amet. Tincidunt nunc pulvinar sapien
+            et ligula ullamcorper. Etiam tempor orci eu lobortis. Faucibus
+            purus in massa tempor. Massa eget egestas purus viverra accumsan.
+            Arcu cursus euismod quis viverra. Non consectetur a erat nam.
+            Aenean vel elit scelerisque mauris pellentesque pulvinar
+            pellentesque habitant. Sollicitudin aliquam ultrices sagittis orci
+            a scelerisque. Egestas quis ipsum suspendisse ultrices gravida
+            dictum fusce ut placerat. Quis commodo odio aenean sed adipiscing
+            diam donec adipiscing.
+          </p>
+          <p>
+            Eleifend donec pretium vulputate sapien nec. Justo eget magna
+            fermentum iaculis eu non diam phasellus. Ac auctor augue mauris
+            augue. Ut consequat semper viverra nam libero justo laoreet sit.
+            Egestas erat imperdiet sed euismod nisi porta. Interdum velit
+            euismod in pellentesque massa placerat duis. Commodo viverra
+            maecenas accumsan lacus vel. Vestibulum sed arcu non odio euismod
+            lacinia at. Vel quam elementum pulvinar etiam non quam lacus. Duis
+            at tellus at urna condimentum mattis. A diam sollicitudin tempor
+            id eu nisl.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="project-sections">
+      <!-- Copy this entire section to make a new section. Update this section to have an id of "section-1" and the next to "section-2" and so on. 
+        Give each project-link-container a unique id and put the project's key image as a background image in main.css. -->
+      <!-- START section 1 snippet -->
+      <section class="project-section" id="section">
+        <h2>Section Title</h2>
+        <div class="project-section-inner-wrapper">
+          <div class="project-section-inner two-column-project-section">
+            <a href="project.html" class="project-link-container">
+              <h3>Project Title</h3>
+              <p>Artist Name</p>
+            </a>
+            <a href="project.html" class="project-link-container">
+              <h3>Longer Project Title</h3>
+              <p>Longer Artist Name</p>
+            </a>
+            <a href="project.html" class="project-link-container">
+              <h3>Even Longer Project Title: With a Subtitle</h3>
+              <p>Even Longer-Longer-Longer-Longer Artist Name</p>
+            </a>
+            <a href="project.html" class="project-link-container">
+              <h3>Longer Longer Project Title</h3>
+              <p>Artist Name</p>
+            </a>
+            <a href="project.html" class="project-link-container">
+              <h3>Project Title</h3>
+              <p>Artist Name</p>
+            </a>
+            <a href="project.html" class="project-link-container">
+              <h3>Even Longer Project Title: With a Subtitle</h3>
+              <p>Artist Name</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- END section 1 snippet -->
+    </div>
+  </main>
+  <footer>
+    <a href="#top" class="back-top-link">&uarr;<br />Back to top</a>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>

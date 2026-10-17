@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Title Here</title>
+  <link rel="stylesheet" href="main.css" />
+
+  <!-- Remember to include your fonts here! Epilogue from Google Fonts included as an example. Replace this entire snippet with your own from Google Fonts. -->
+  <!-- START Google Fonts snippet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <!-- END Google Fonts snippet -->
+</head>
+
+<body>
+  <a href="#main-content" class="skip-to-main-content-link">Skip to main content
+  </a>
+  <!-- Top Navigation Menu -->
+  <nav class="topnav" id="top">
+    <a href="index.html" class="exhibition-logo active">
+      <h1>Exhibition Title</h1>
+    </a>
+    <!-- "Hamburger menu" to toggle the navigation links -->
+    <button class="menu-toggle" id="hamburger" aria-expanded="false" aria-controls="nav-menu"><span
+        class="visually-hidden">Menu</span>
+      <svg class="icon icon-menu-toggle" aria-hidden="true" version="1.1" xmlns="https://www.w3.org/2000/svg"
+        xmlns:xlink="https://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+        <path class="line line-1" d="M 20,30 H 80" />
+        <path class="line line-2" d="M 20,50 H 80" />
+        <path class="line line-3" d="M 20,70 H 80" />
+      </svg>
+    </button>
+    <!-- Navigation links (hidden by default) -->
+    <div id="navLinks">
+      <div class="nav-links">
+        <!-- Add links to all sections on homepage by copying the span below and editing the text to the name of the section and href to the id of the section -->
+        <span><a href="index.html#section">Section Link</a></span>
+        <span><a href="https://newmediartspace.info" target="_blank">New Media Artspace</a>
+        </span>
+      </div>
+    </div>
+  </nav>
+  <main class="main-container" id="main-content">
+    <div class="project-text column-text">
+      <div class="column-left project-left">
+        <div>
+          <h1>Project Title</h1>
+          <p class="artist-name-proj">Artist Name</p>
+          <a href="#project" class="view-project-link">View project &darr;</a>
+        </div>
+      </div>
+      <div class="project-text-body column-right project-right">
+        <h2>Project Statement</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
+          venenatis urna cursus eget nunc scelerisque viverra mauris. Molestie
+          a iaculis at erat pellentesque adipiscing. Laoreet suspendisse
+          interdum consectetur libero. Tellus id interdum velit laoreet id
+          donec. Massa tincidunt nunc pulvinar sapien. In aliquam sem
+          fringilla ut. Iaculis urna id volutpat lacus laoreet. Quam id leo in
+          vitae turpis. Tellus molestie nunc non blandit massa enim nec.
+        </p>
+        <p>
+          Scelerisque viverra mauris in aliquam sem fringilla. Ipsum dolor sit
+          amet consectetur. Ullamcorper malesuada proin libero nunc consequat
+          interdum varius sit amet. Tincidunt nunc pulvinar sapien et ligula
+          ullamcorper. Etiam tempor orci eu lobortis. Faucibus purus in massa
+          tempor. Massa eget egestas purus viverra accumsan. Arcu cursus
+          euismod quis viverra. Non consectetur a erat nam. Aenean vel elit
+          scelerisque mauris pellentesque pulvinar pellentesque habitant.
+          Sollicitudin aliquam ultrices sagittis orci a scelerisque. Egestas
+          quis ipsum suspendisse ultrices gravida dictum fusce ut placerat.
+          Quis commodo odio aenean sed adipiscing diam donec adipiscing.
+        </p>
+        <h2>Artist Statement</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
+          venenatis urna cursus eget nunc scelerisque viverra mauris. Molestie
+          a iaculis at erat pellentesque adipiscing. Laoreet suspendisse
+          interdum consectetur libero. Tellus id interdum velit laoreet id
+          donec. Massa tincidunt nunc pulvinar sapien. In aliquam sem
+          fringilla ut. Iaculis urna id volutpat lacus laoreet. Quam id leo in
+          vitae turpis. Tellus molestie nunc non blandit massa enim nec.
+        </p>
+      </div>
+    </div>
+    <div class="project-body" id="project">
+      <!-- This heading is for screen readers to maintain an accessible hierarchy. You can leave it as "Project" for all the works, indicating to screen readers that this is the section containing the project. -->
+      <h2 class="visually-hidden">Project</h2>
+      <!-- This template has an example of an image and a video. Use what is appropriate to each project. 
+          The image is styled in main.css as ".project-body img". The video is styled in main.css as ".vid-container iframe" and ".vid-container".
+          If using a Vimeo video, simply replace this part "87110435?h=f253e737bd" in the src. You can get this portion for your video by clicking the "Share" button in Vimeo. Don't paste in the full embed or it will throw off the formatting.-->
+      <img src="https://placebear.com/1800/1300" alt="Brown bear in water holding its paw up to its face" />
+      <div class="vid-container">
+        <iframe src="https://player.vimeo.com/video/943809475?h=f253e737bd&title=0&byline=0&portrait=0&api=1"
+          frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="accordion">
+          <details name="descriptive-transcript" class="descriptive-transcript">
+            <summary>
+              <h3>Descriptive Transcript</h3>
+            </summary>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet
+              venenatis urna cursus eget nunc scelerisque viverra mauris. Molestie
+              a iaculis at erat pellentesque adipiscing. Laoreet suspendisse
+              interdum consectetur libero. Tellus id interdum velit laoreet id
+              donec. Massa tincidunt nunc pulvinar sapien. In aliquam sem
+              fringilla ut. Iaculis urna id volutpat lacus laoreet. Quam id leo in
+              vitae turpis. Tellus molestie nunc non blandit massa enim nec.
+            </p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#top" class="back-top-link">&uarr;<br />Back to top</a>
+  </footer>
+  <script src="main.js"></script>
+</body>
+
+</html>
