@@ -98,7 +98,7 @@
   padding: 2%;
   background-color: black;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .About_section img {
@@ -119,8 +119,8 @@
 .About_section p {
   color: white;
   text-align: center;
-  margin-top: -12%;
-  width: 60%;
+  margin-top: 0%;
+  width: 80%;
 }
 
 
