@@ -93,6 +93,7 @@
 
 .About_section {
   display: flex;
+  align-items: center;
   justify-content: center; 
   padding: 2%;
   background-color: black;
@@ -117,9 +118,9 @@
 
 .About_section p {
   color: white;
-  margin-left: -38%;
-  margin-top: -10%;
-  width: 40%;
+  text-align: center;
+  margin-top: -12%;
+  width: 60%;
 }
 
 
