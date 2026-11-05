@@ -59,7 +59,7 @@
 .floors_section {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2%;
   background-color: rgb(27, 26, 26);

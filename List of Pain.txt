@@ -1,3 +1,3 @@
 - When on phone, the text for exhibition title becomes incredibly small. (Might be fixed once change to image is done)
 - Logo box overlaps subtitles on header on phone
-- The space between the subtitle and floor number, on the floor section on the home page, stretches, leaving a big gap, when on phone.
+- The space between the subtitles, on the floor section on the home page, stretches, leaving a big gap, when on phone.
